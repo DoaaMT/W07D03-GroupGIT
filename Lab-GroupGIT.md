@@ -19,10 +19,11 @@
 1. Fork and clone team leader's repo i.e. `git clone <your forked git repo url>`. This will be your `origin`
 3. run `git remote add upstream <team leader git url>`
 2. run `git checkout -b yourname-dev` to create a dev branch
-4. Create a new file (e.g.- `marc.html`) and `git add -A` then `git commit -m '<relevant message>'` 
+4. Create a new file (e.g.- `name.html`) and `git add -A` then `git commit -m '<relevant message>'` 
 4. Run `git push origin yourname-dev`
 5. Send a pull request to team leader
 6. The team leader merges the code to master.
-7. Run `git pull upstream master` to get current version from team leader locally. Your local master branch should now be up to date with the upstream master.
-8. `git checkout yourname-dev`
-9. `git merge master` will merge the latest version of the code to your dev branch.
+7. Switch back to your master branch.
+8. Run `git pull upstream master` to get current version from team leader locally. Your local master branch should now be up to date with the upstream master.
+9. `git checkout yourname-dev`
+10. `git merge master` will merge the latest version of the code to your dev branch.
